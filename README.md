@@ -10,7 +10,7 @@
 https://www.kaggle.com/teertha/ushealthinsurancedataset
 
 ## Deliverables Segment 1
-- Selected topic
+- Selected topic: _to predict which insurance premiums or costs people will have right_
 - Reason they selected the topic
 - Description of the source of data
 - Questions they hope to answer with the data
