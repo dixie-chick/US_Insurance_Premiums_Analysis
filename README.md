@@ -1,4 +1,4 @@
-# US_Insurance_Premiums_Analysis
+# US Insurance Premiums Analysis
 
 ## Foundations Segment 1
 - Decide on a topic for the project—think of a question that can be answered using data.
