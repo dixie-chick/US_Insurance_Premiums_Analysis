@@ -6,6 +6,12 @@ Would they be a liability to our insurance company or would they be a good candi
 
 ## Data Used:
 
+## Assumptions
+A BMI of less than 18.5 means that a person is underweight. A BMI of between 18.5 and 24.9 is ideal. A BMI of between 25 and 29.9 is overweight. A BMI over 30 indicates obesity.
+Overweight: 26–37%
+Obesity: 38% or more
+Activity level: Male body type
+Acceptable: 18–25%
 
 ## Process:
 - exploratory data analysis in pandas using Jupyter notebook
