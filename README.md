@@ -1,6 +1,16 @@
 # US_Insurance_Premiums_Analysis
 With US Health Insurance more complex than ever, digital tranformation to make predictions based on input can deliver more clear results to predict insurance premiums. This dataset uses Age, Sex, BMI, Number of Children, Smoker and Region using Linear Regression to create a machine learning model. 
 
+## Data Used:
+
+
+## Process:
+exploratory data analysis in pandas using Jupyter notebook
+testing and training the data
+create linear regression model
+train the model 
+
+
 ## Foundations Segment 1
 - Decide on a topic for the project—think of a question that can be answered using data.
 - Create a repository for the project and invite the other team members to join.
