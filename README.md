@@ -1,5 +1,8 @@
 # US_Insurance_Premiums_Analysis
-With US Health Insurance more complex than ever, digital tranformation to make predictions based on input can deliver more clear results to predict insurance premiums. This dataset uses Age, Sex, BMI, Number of Children, Smoker and Region using Linear Regression to create a machine learning model. 
+With US Health Insurance more complex than ever, digital tranformation to make predictions based on input can deliver more clear results to predict potential candidacy. This dataset uses Age, Sex, BMI, Number of Children, Smoker and Region using Linear Regression to create a machine learning model. 
+
+## What is the story? 
+Would they be a liability to our insurance company or would they be a good candidate to our insurance company? Is this a good insurance candidate/customer? 
 
 ## Data Used:
 
