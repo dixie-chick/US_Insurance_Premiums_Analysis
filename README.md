@@ -5,10 +5,10 @@ With US Health Insurance more complex than ever, digital tranformation to make p
 
 
 ## Process:
-exploratory data analysis in pandas using Jupyter notebook
-testing and training the data
-create linear regression model
-train the model 
+- exploratory data analysis in pandas using Jupyter notebook
+- testing and training the data
+- create linear regression model
+- train the model 
 
 
 ## Foundations Segment 1
