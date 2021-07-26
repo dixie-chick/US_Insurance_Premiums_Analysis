@@ -7,7 +7,7 @@ Would they be a liability to our insurance company or would they be a good candi
 ## Data Used:
 
 ## Assumptions: 
-BMI Categories based off of the [National Heart, Lung, and BLook Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
+BMI Categories based off of the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
 
 ##### BMI Categories:
 - Underweight = <18.5
