@@ -27,11 +27,19 @@ BMI Categories based off of the [National Heart, Lung, and Blood Institute](http
 
 ## Who Did What
 
+<<<<<<< HEAD
 Presentation: everybody
 GitHub (square role): Delaney
 ML Model (triangle role): Eric
 Database (circle role): Matthew
 X role: Bogeun
+=======
+- Presentation: everybody
+- GitHub (square role): Delaney
+- ML Model (triangle role): Eric
+- Database (circle role): Matthew
+- X role: Bogeun
+>>>>>>> dbe65bc07d6d32ffebbd6a587dbf20199f320424
 
 ## Technologies Used
 
@@ -50,7 +58,11 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 ### Dashboard
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
 =======
 We will use Tableau to create a dashboard and Google Slides for a presentation, bringing in our dataset from the Postgres SQL database.
 >>>>>>> 1ab85062ca687c61fd5901bd7677e203b2c2e84b
+=======
+We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
+>>>>>>> dbe65bc07d6d32ffebbd6a587dbf20199f320424
