@@ -27,11 +27,11 @@ BMI Categories based off of the [National Heart, Lung, and Blood Institute](http
 
 ## Who Did What
 
-Presentation: everybody
-GitHub (square role): Delaney
-ML Model (triangle role): Eric
-Database (circle role): Matthew
-X role: Bogeun
+- Presentation: everybody
+- GitHub (square role): Delaney
+- ML Model (triangle role): Eric
+- Database (circle role): Matthew
+- X role: Bogeun
 
 ## Technologies Used
 
