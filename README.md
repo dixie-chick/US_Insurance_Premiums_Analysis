@@ -27,10 +27,7 @@ BMI Categories based off of the [National Heart, Lung, and Blood Institute](http
 
 https://www.kaggle.com/teertha/ushealthinsurancedataset
 
-<<<<<<< HEAD
 ## Technologies Used
-=======
->>>>>>> origin/main
 
 ### Data Cleaning and Analysis
 
@@ -46,7 +43,4 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 
 ### Dashboard
 
-<<<<<<< HEAD
 We will use Tableau to create a dashboard and Google Slides for a presentation, bringing in our dataset from the Postgres SQL database.
-=======
->>>>>>> origin/main
