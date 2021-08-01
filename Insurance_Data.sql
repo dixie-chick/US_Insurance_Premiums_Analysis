@@ -11,4 +11,15 @@ CREATE TABLE insurance_data (
     sex_male INT NOT NULL
 );
 
+-- Create second table
+-- CREATE TABLE x_data (
+--     age INT NOT NULL,
+
+-- )
+
 -- Create mockup of join
+-- SELECT insurance_data.age,
+--      insurance_data.charges
+-- FROM insurance_data
+-- LEFT JOIN second_table
+-- ON insurance_data.age = second_table.age;
