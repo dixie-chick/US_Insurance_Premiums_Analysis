@@ -1,4 +1,4 @@
--- Create cleaned table
+-- Create cleaned table of insurance data
 CREATE TABLE insurance_data (
 	age INT NOT NULL,
     bmi FLOAT NOT NULL,
