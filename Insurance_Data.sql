@@ -1,3 +1,4 @@
+-- Create cleaned table
 CREATE TABLE insurance_data (
 	age INT NOT NULL,
     bmi FLOAT NOT NULL,
@@ -9,3 +10,4 @@ CREATE TABLE insurance_data (
     sex_female INT NOT NULL,
     sex_male INT NOT NULL
 );
+
