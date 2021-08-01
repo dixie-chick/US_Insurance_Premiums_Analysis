@@ -1,6 +1,6 @@
 -- Create cleaned table of insurance data
 CREATE TABLE insurance_data (
-	age INT NOT NULL,
+	age INT PRIMARY KEY NOT NULL,
     bmi FLOAT NOT NULL,
     children VARCHAR NOT NULL,
     region VARCHAR NOT NULL,
