@@ -11,3 +11,4 @@ CREATE TABLE insurance_data (
     sex_male INT NOT NULL
 );
 
+-- Create mockup of join
