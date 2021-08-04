@@ -7,8 +7,7 @@ CREATE TABLE insurance_raw (
     children VARCHAR NOT NULL,
 	smoker VARCHAR NOT NULL,
 	region VARCHAR NOT NULL,
-    charges FLOAT(2) NOT NULL,
-	PRIMARY KEY (age)
+    charges FLOAT(2) NOT NULL
 );
 
 -- Create cleaned table of insurance data
@@ -21,10 +20,10 @@ CREATE TABLE insurance_cleaned (
 	smoker_no INT NOT NULL,
 	smoker_yes INT NOT NULL,
     sex_female INT NOT NULL,
-    sex_male INT NOT NULL,
-	PRIMARY KEY (age)
+    sex_male INT NOT NULL
 );
 
+SELECT * FROM insurance_raw;
 SELECT * FROM insurance_cleaned;
 
 -- Create second table
