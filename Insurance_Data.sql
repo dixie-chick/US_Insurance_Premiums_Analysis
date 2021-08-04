@@ -1,15 +1,29 @@
--- Create cleaned table of insurance data
-CREATE TABLE insurance_data (
-	age INT PRIMARY KEY NOT NULL,
+-- Create table of initial data
+-- DROP TABLE insurance_raw;
+CREATE TABLE insurance_raw (
+	age PRIMARY KEY INT NOT NULL,
+	sex VARCHAR NOT NULL,
     bmi FLOAT NOT NULL,
     children VARCHAR NOT NULL,
-    region VARCHAR NOT NULL,
+	smoker VARCHAR NOT NULL,
+	region VARCHAR NOT NULL,
+    charges FLOAT(2) NOT NULL
+);
+
+-- Create cleaned table of insurance data
+-- DROP TABLE insurance_cleaned;
+CREATE TABLE insurance_cleaned (
+	age PRIMARY KEY INT NOT NULL,
+    bmi FLOAT NOT NULL,
+    children VARCHAR NOT NULL,
     charges FLOAT(2) NOT NULL,
+	smoker_no INT NOT NULL,
 	smoker_yes INT NOT NULL,
-    smoker_no INT NOT NULL,
     sex_female INT NOT NULL,
     sex_male INT NOT NULL
 );
+
+SELECT * FROM insurance_cleaned;
 
 -- Create second table
 -- CREATE TABLE x_data (
