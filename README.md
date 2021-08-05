@@ -49,4 +49,19 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 
 ### Dashboard
 
+
+## Deliverables Segment 1
+### Machine Learning
+
+- The dataset is put into the Pandas notebook under insurance_cleaned.csv
+- The inputs we decided on were that the charges were going to be the output. The inputs are going to be age, gender, BMI, number of kids, and whether or not the client is a smoker.
+
+
+### Later Questions
+- Selected topic: _to predict which insurance premiums or costs people will have right_
+- Reason they selected the topic
+- Description of the source of data
+- Questions they hope to answer with the data
+
 We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
+
