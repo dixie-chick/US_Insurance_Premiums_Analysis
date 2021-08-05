@@ -32,6 +32,13 @@ BMI Categories based off of the [National Heart, Lung, and Blood Institute](http
 https://www.kaggle.com/teertha/ushealthinsurancedataset
 
 ## Deliverables Segment 1
+### Machine Learning
+
+- The dataset is put into the Pandas notebook under insurance_cleaned.csv
+- The inputs we decided on were that the charges were going to be the output. The inputs are going to be age, gender, BMI, number of kids, and whether or not the client is a smoker.
+
+
+### Later Questions
 - Selected topic: _to predict which insurance premiums or costs people will have right_
 - Reason they selected the topic
 - Description of the source of data
