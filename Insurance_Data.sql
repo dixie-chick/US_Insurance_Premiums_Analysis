@@ -44,3 +44,27 @@ SELECT * FROM insurance_cleaned;
 -- FROM insurance_data
 -- LEFT JOIN second_table
 -- ON insurance_data.age = second_table.age;
+
+-- Create a table from the cleaned table without charges column
+SELECT age,
+bmi,
+children,
+smoker_no,
+smoker_yes,
+sex_female,
+sex_male
+INTO insurance_customers
+FROM insurance_cleaned;
+
+-- Create a table from the cleaned table for the charges column
+SELECT age,
+charges
+INTO insurance_charges
+FROM insurance_cleaned;
+
+-- Join two tables   -ERROR
+SELECT icu.*,
+ich.*
+INTO joined_tables
+FROM insurance_customers as icu
+ON insurance_charges as ich;
