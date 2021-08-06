@@ -26,17 +26,9 @@ CREATE TABLE insurance_cleaned (
 SELECT * FROM insurance_raw;
 SELECT * FROM insurance_cleaned;
 
+-- DROP TABLE insurance_clean_alter;
 -- Add table that will be altered so as to leave original cleaned table intact
-CREATE TABLE insurance_clean_alter (
-	age INT NOT NULL,
-    bmi FLOAT NOT NULL,
-    children VARCHAR NOT NULL,
-    charges FLOAT(2) NOT NULL,
-	smoker_no INT NOT NULL,
-	smoker_yes INT NOT NULL,
-    sex_female INT NOT NULL,
-    sex_male INT NOT NULL
-);
+Select * into insurance_clean_alter from insurance_cleaned;
 
 -- Add id column to table
 ALTER TABLE insurance_clean_alter ADD id SERIAL;
