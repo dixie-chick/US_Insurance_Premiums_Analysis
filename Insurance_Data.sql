@@ -26,21 +26,54 @@ CREATE TABLE insurance_cleaned (
 SELECT * FROM insurance_raw;
 SELECT * FROM insurance_cleaned;
 
--- Create second table
--- CREATE TABLE x_data (
---     age INT NOT NULL,
---     bmi FLOAT NOT NULL,
---     children VARCHAR NOT NULL,
---     charges FLOAT(2) NOT NULL,
---     smoker_yes INT NOT NULL,
---     smoker_no INT NOT NULL,
---     sex_female INT NOT NULL,
---     sex_male INT NOT NULL
--- )
+-- Add table that will be altered so as to leave original cleaned table intact
+CREATE TABLE insurance_clean_alter (
+	age INT NOT NULL,
+    bmi FLOAT NOT NULL,
+    children VARCHAR NOT NULL,
+    charges FLOAT(2) NOT NULL,
+	smoker_no INT NOT NULL,
+	smoker_yes INT NOT NULL,
+    sex_female INT NOT NULL,
+    sex_male INT NOT NULL
+);
 
--- Create mockup of join
--- SELECT insurance_data.age,
---      insurance_data.charges
--- FROM insurance_data
--- LEFT JOIN second_table
--- ON insurance_data.age = second_table.age;
+-- Add id column to table
+ALTER TABLE insurance_clean_alter ADD id SERIAL;
+ALTER TABLE insurance_clean_alter ADD PRIMARY KEY (id);
+
+SELECT * FROM insurance_clean_alter;
+
+-- DROP TABLE insurance_customers;
+-- Create a table from the cleaned table without charges column
+SELECT id,
+age,
+bmi,
+children,
+smoker_no,
+smoker_yes,
+sex_female,
+sex_male
+INTO insurance_customers
+FROM insurance_clean_alter;
+
+-- DROP TABLE insurance_charges;
+-- Create a table from the cleaned table for the charges column
+SELECT id,
+charges
+INTO insurance_charges
+FROM insurance_clean_alter;
+
+SELECT * FROM insurance_customers;
+SELECT * FROM insurance_charges;
+
+-- DROP TABLE joined_tables;
+-- Join two tables
+SELECT cus.*, chg.charges
+INTO joined_tables
+FROM insurance_customers as cus
+JOIN insurance_charges as chg
+ON (cus.id = chg.id)
+ORDER BY id ASC;
+
+SELECT * FROM joined_tables;
