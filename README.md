@@ -91,4 +91,8 @@ BMI Categories based off of the [National Heart, Lung, and Blood Institute](http
 - Underweight = <18.5
 - Normal weight = 18.5–24.9
 - Overweight = 25–29.9
+<<<<<<< HEAD
 - Obesity = BMI of 30 or greater
+=======
+- Obesity = BMI of 30 or greater
+>>>>>>> c17e579d3dcf10ce8e295562f9b9311ffbc3de92
