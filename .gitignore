@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -129,3 +130,7 @@ dmypy.json
 .pyre/
 
 .DS_Store
+=======
+# Adding config.py file.
+config.py
+>>>>>>> e898df2e70d36558320f5c1aeceb1003e11e7191

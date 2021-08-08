@@ -8,7 +8,7 @@ Thanks to advances in technology, we can easily create models to help make predi
 Let's do it.
 
 ## Presentation: A general outline
-
+Check out the presentation [here](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing)
 ### Questions 
 Will insurance applicants be a liability to our insurance company? In other words, would they be a good candidate for our insurance company or a risk? 
 
@@ -81,7 +81,7 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 - Presentation: Delaney/Bogeun
 - GitHub: everybody
 - ML Model: Eric
-- Database: Matthew
+- Database: Matthew/Delaney
 - Dashboard: 
 
 ## Assumptions 
