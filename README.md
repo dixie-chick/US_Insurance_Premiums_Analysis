@@ -82,7 +82,7 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 - GitHub: everybody
 - ML Model: Eric
 - Database: Matthew/Delaney
-- Dashboard: 
+- Dashboard: Bogeun
 
 ## Assumptions 
 BMI Categories based off of the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
