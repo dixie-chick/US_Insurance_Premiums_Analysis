@@ -62,9 +62,9 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 
 ## Segment 2 Machine Learning Description
 - We have decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. As stated before we will use the 80/20 model to test and split our data for the predictive model. 
-# Decision Process
+### Decision Process
 - The decision to use this model was chosen because we wanted to see if the US insurance system would actually provide the correct coverage to the people that we have set into the catergory based on the criteria setforth by the NHLBI and then using real life examples from the dataset provided with other factors.
-# Data Preprocessing
+### Data Preprocessing
 - We first started with a almost clean data set from Kaggle. Then we decided that one of the columns named Region wasn't going to be one that we wanted to focus on becasue we wanted to look just at the person themselves rather than the area they were located. This could create the a limitation within the data, but we can always add it back in and then train our model to include it.
 
 ### Later Questions
