@@ -70,12 +70,20 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 
 ## Who Did What
 
+## Segment 2 Machine Learning Description
+- We have decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. As stated before we will use the 80/20 model to test and split our data for the predictive model. 
+### Decision Process
+- The decision to use this model was chosen because we wanted to see if the US insurance system would actually provide the correct coverage to the people that we have set into the catergory based on the criteria setforth by the NHLBI and then using real life examples from the dataset provided with other factors.
+### Data Preprocessing
+- We first started with a almost clean data set from Kaggle. Then we decided that one of the columns named Region wasn't going to be one that we wanted to focus on becasue we wanted to look just at the person themselves rather than the area they were located. This could create the a limitation within the data, but we can always add it back in and then train our model to include it.
+
 ### Segment 1
 - Presentation: everybody
 - GitHub (square role): Delaney
 - ML Model (triangle role): Eric
 - Database (circle role): Matthew
 - X role: Bogeun
+
 
 ### Segment 2
 - Presentation: Delaney/Bogeun
@@ -87,8 +95,14 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 ## Assumptions 
 BMI Categories based off of the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
 
+
+
+We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
+
+
 ##### BMI Categories:
 - Underweight = <18.5
 - Normal weight = 18.5–24.9
 - Overweight = 25–29.9
 - Obesity = BMI of 30 or greater
+
