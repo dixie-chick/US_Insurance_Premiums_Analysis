@@ -10,3 +10,9 @@ config.py
 # Jupyter notebook checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+# CSV files
+.csv
+
+# Technology file
+technology.md
