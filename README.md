@@ -49,11 +49,7 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 
 ### Dashboard
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> dc62be8687243496549ebf1ddab31bf1fba63423
 ## Deliverables Segment 1
 ### Machine Learning
 
@@ -72,12 +68,9 @@ SciKitLearn is the ML library we'll be using to create a linear regression model
 - Reason they selected the topic
 - Description of the source of data
 - Questions they hope to answer with the data
-<<<<<<< HEAD
-=======
-We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
->>>>>>> 5330b460ebedd9b41f9d7b64cffa8733ce4b5ad9
-=======
 
 We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
 
->>>>>>> dc62be8687243496549ebf1ddab31bf1fba63423
+
+We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
+
