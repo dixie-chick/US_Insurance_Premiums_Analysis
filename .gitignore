@@ -3,3 +3,10 @@ config.py
 
 # DS_Store
 .DS_Store
+
+# Pycache
+.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
