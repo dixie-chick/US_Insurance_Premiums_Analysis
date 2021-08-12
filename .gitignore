@@ -9,7 +9,10 @@ config.py
 */.ipynb_checkpoints/*
 
 # CSV files
-.csv
+*.csv
 
 # Technology file
 technology.md 
+
+# pyc files
+*.pyc
