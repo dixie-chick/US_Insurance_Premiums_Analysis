@@ -8,7 +8,8 @@ Thanks to advances in technology, we can easily create models to help make predi
 Let's do it.
 
 ## Presentation: A general outline
-Check out the presentation [here](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing)
+Check out the presentation [here](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing).
+
 ### Questions 
 Will insurance applicants be a liability to our insurance company? In other words, would they be a good candidate for our insurance company or a risk? 
 
@@ -42,13 +43,22 @@ Through correlation analysis, we found the variables that correlated greatest wi
 - Other Zoom meetings as needed for discussions and group work
 
 ## Machine Learning Model
-
 - The dataset is put into the Pandas notebook under insurance_cleaned.csv
 - The inputs we decided on were that the charges were going to be the output. The inputs are going to be age, gender, BMI, number of kids, and whether or not the client is a smoker.
-- Our training and testing setup uses scikit-learn's `train-test-split` method to split the data 75/25 (75% training, 25% test).
-- Our model is a linear classifier, which we decided because our data was simple and the outputs we wanted to predict were continuous values.
-  - Limitations: Simple to implement and understand
-  - Benefits: Outliers can have huge effects, can only provide linear relationship between variables
+
+## Segment 2 Machine Learning Description
+We have decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. 
+
+- Limitations: Simple to implement and understand
+- Benefits: Outliers can have huge effects, can only provide linear relationship between variables
+
+We will use scikit-learn's `train-test-split` to split the data 80/20 (80% training, 20% test) for the predictive model. Once we predict the cost, we label the customer as either a good candidate or high risk depending on whether they are higher or lower than a set cutoff chosen based on our analysis ($20,000).
+
+### Decision Process
+The decision to use this model was chosen because we wanted to see if the US insurance system would actually provide the correct coverage to the people that we have set into the category based on the criteria set forth by the NHLBI and then using real life examples from the dataset provided with other factors.
+
+### Data Preprocessing
+We first started with an almost clean data set from Kaggle. Then we decided that one of the columns named Region wasn't going to be one that we wanted to focus on because of the low correlation with charges and because we wanted to look just at the person themselves rather than the area they were located. This could create the a limitation within the data, but we can always add it back in and then train our model to include it.
 
 ## Technologies Used
 
@@ -70,20 +80,12 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 
 ## Who Did What
 
-## Segment 2 Machine Learning Description
-- We have decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. As stated before we will use the 80/20 model to test and split our data for the predictive model. 
-### Decision Process
-- The decision to use this model was chosen because we wanted to see if the US insurance system would actually provide the correct coverage to the people that we have set into the catergory based on the criteria setforth by the NHLBI and then using real life examples from the dataset provided with other factors.
-### Data Preprocessing
-- We first started with a almost clean data set from Kaggle. Then we decided that one of the columns named Region wasn't going to be one that we wanted to focus on becasue we wanted to look just at the person themselves rather than the area they were located. This could create the a limitation within the data, but we can always add it back in and then train our model to include it.
-
 ### Segment 1
 - Presentation: everybody
 - GitHub (square role): Delaney
 - ML Model (triangle role): Eric
 - Database (circle role): Matthew
 - X role: Bogeun
-
 
 ### Segment 2
 - Presentation: Delaney/Bogeun
@@ -92,13 +94,14 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 - Database: Matthew/Delaney
 - Dashboard: Bogeun
 
+### Segment 3
+- Presentation: 
+- GitHub: 
+- ML Model: 
+- Dashboard: 
+
 ## Assumptions 
 BMI Categories based off of the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
-
-
-
-We will use Tableau to create a dashboard, bringing in our dataset from the Postgres SQL database. We will also use Google Slides for a presentation.
-
 
 ##### BMI Categories:
 - Underweight = <18.5
