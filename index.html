@@ -6,24 +6,33 @@
   <meta charset="UTF-8">
   <title>ML API</title>
   <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
   
 </head>
 
 <body>
  <div class="login">
-	<h1>Predict Salary Analysis</h1>
+	<h1>Predict Insurance Charges Analysis</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="experience" placeholder="Experience" required="required" />
-        <input type="text" name="test_score" placeholder="Test Score" required="required" />
-		<input type="text" name="interview_score" placeholder="Interview Score" required="required" />
+    	<input type="text" name="age" placeholder="Age" required="required" />
+      <input type="text" name="bmi" placeholder="BMI" required="required" />
+		  <input type="text" name="children" placeholder="Children" required="required" />
+      <input type="radio" id="smoker_yes" name="smoker" placeholder="Smoker" required="required" />
+      <label for="smoker_yes">Smoker</label><br>
+      <input type="radio" id="smoker_no" name="smoker" required="required" />
+      <label for="smoker_no">Non-Smoker</label><br>
+      <input type="radio" name="sex_female" placeholder="Sex" required="required" />
+      <label for="sex_female">Female</label><br>
+      <input type="radio" name="sex_male" required="required" />
+      <label for="sex_male">Male</label><br>
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+        <input type="reset" />
     </form>
 
    <br>
