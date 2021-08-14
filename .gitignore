@@ -9,3 +9,16 @@ config.py
 
 # DS_Store
 .DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# CSV files
+*.csv
+
+# Technology file
+technology.md 
+
+# pyc files
+*.pyc
