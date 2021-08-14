@@ -39,13 +39,11 @@ Through correlation analysis, we found the variables that correlated greatest wi
 - The dataset is put into the Pandas notebook under insurance_cleaned.csv
 - The inputs we decided on were that the charges were going to be the output. The inputs are going to be age, gender, BMI, number of kids, and whether or not the client is a smoker.
 
-## Segment 2 Machine Learning Description
-We have decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. 
-
+We decided to use a linear regression model to try and predict the average cost that a customer will cost us based on the factors that we set. 
 - Limitations: Simple to implement and understand
 - Benefits: Outliers can have huge effects, can only provide linear relationship between variables
 
-We will use scikit-learn's `train-test-split` to split the data 80/20 (80% training, 20% test) for the predictive model. Once we predict the cost, we label the customer as either a good candidate or high risk depending on whether they are higher or lower than a set cutoff chosen based on our analysis ($20,000).
+We used scikit-learn's `train-test-split` to split the data 80/20 (80% training, 20% test) for the predictive model. Once we predict the cost, we label the customer as either a good candidate or high risk depending on whether they are higher or lower than a set cutoff chosen based on our analysis ($20,000).
 
 ### Decision Process
 The decision to use this model was chosen because we wanted to see if the US insurance system would actually provide the correct coverage to the people that we have set into the category based on the criteria set forth by the NHLBI and then using real life examples from the dataset provided with other factors.
