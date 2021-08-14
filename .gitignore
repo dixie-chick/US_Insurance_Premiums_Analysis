@@ -1,7 +1,14 @@
+# Adding __pycache__
+__pycache__
+
+# Adding checkpoints
+.ipynb_checkpoints
+
 # Adding config.py file.
 config.py
 
 # DS_Store
+<<<<<<< HEAD
 .DS_Store
 
 # Jupyter notebook checkpoints
@@ -16,3 +23,6 @@ technology.md
 
 # pyc files
 *.pyc
+=======
+.DS_Store
+>>>>>>> e8b9a444f6333886738cb3efced69a4c2931534a
