@@ -8,7 +8,7 @@ Thanks to advances in technology, we can easily create models to help make predi
 Let's do it.
 
 ## Presentation: A general outline
-Check out the presentation [here](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing).
+Check out the [Googles Slides presentation](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing), the [Tableau dashboard](https://public.tableau.com/app/profile/bogeun.choi/viz/USInsurancePremiums/InsuranceDataAnalysis), and [interactive website](https://dixie-chick.github.io/US_Insurance_Premiums_Analysis/) where you can predict your charges.
 
 ### Questions 
 Will insurance applicants be a liability to our insurance company? In other words, would they be a good candidate for our insurance company or a risk? 
@@ -34,13 +34,6 @@ Through correlation analysis, we found the variables that correlated greatest wi
 **Implications**:
 - Region has almost no correlation with insurance costs, thus we drop it from our model
 - Though number of children and sex also have small correlations, we decide to keep both variables
-
-## GitHub
-
-### Communication Protocols
-- Class Zoom meetings to discuss progress (Monday, Wednesday 7-9pm PT)
-- Slack channel for quick messaging
-- Other Zoom meetings as needed for discussions and group work
 
 ## Machine Learning Model
 - The dataset is put into the Pandas notebook under insurance_cleaned.csv
