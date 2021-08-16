@@ -8,7 +8,7 @@ Thanks to advances in technology, we can easily create models to help make predi
 Let's do it.
 
 ## Presentation: A general outline
-Check out the [Googles Slides presentation](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing), the [Tableau dashboard](https://public.tableau.com/app/profile/bogeun.choi/viz/USInsurancePremiums/InsuranceDataAnalysis), and [interactive website](https://dixie-chick.github.io/US_Insurance_Premiums_Analysis/) where you can predict your charges.
+Check out the [Googles Slides presentation](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing), the [Tableau dashboard](https://public.tableau.com/app/profile/bogeun.choi/viz/USInsurancePremiums/InsuranceDataAnalysis), and [interactive website](https://us-insurance-model.herokuapp.com/) where you can predict your charges.
 
 ### Questions 
 Will insurance applicants be a liability to our insurance company? In other words, would they be a good candidate for our insurance company or a risk? 
@@ -86,10 +86,10 @@ We will use Tableau to create a dashboard, bringing in our dataset from the Post
 - Dashboard: Bogeun
 
 ### Segment 3
-- Presentation: 
-- GitHub: 
-- ML Model: 
-- Dashboard: 
+- Presentation: Bogeun/Matthew
+- GitHub: everybody
+- ML Model: Eric
+- Dashboard: everybody
 
 ## Assumptions 
 BMI Categories based off of the [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health/educational/lose_wt/BMI/bmicalc.htm)
