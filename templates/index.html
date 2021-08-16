@@ -1,43 +1,45 @@
 <!-- Taken from https://github.com/krishnaik06/Deployment-flask/blob/master/templates/index.html -->
+<!-- and https://codepen.io/frytyler/pen/EGdtg-->
 <!DOCTYPE html>
-<html >
-<!--From https://codepen.io/frytyler/pen/EGdtg-->
-<head>
-  <meta charset="UTF-8">
-  <title>ML API</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>Insurance Charge Predictor</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
 </head>
 
 <body>
-<div class="login">
-    <h1>Predict Insurance Charges</h1>
+    <div class="login">
+        <h1>Predict Insurance Charges</h1>
 
-    <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="POST">
-        <input type="number" name="age" placeholder="Age" required="required" />
-        <input type="number" name="height" placeholder="Height (inches)" required="required" />
-        <input type="number" name="weight" placeholder="Weight (pounds)" required="required" />
-        <input type="number" name="children" placeholder="Children" required="required" />
-        <input type="radio" id="smoker_yes" name="smoker" value="yes" required="required" />
-            <label for="smoker_yes">Smoker</label><br>
-        <input type="radio" id="smoker_no" name="smoker" value="no" required="required" />
+        <p>Fill in the form below to predict your insurance charges and see if you're a good candidate.</p>
+
+        <!-- Main Input For Receiving Query to our ML -->
+        <form action="{{ url_for('predict')}}"method="POST">
+            <input type="number" name="age" placeholder="Age" required="required" />
+            <input type="number" name="height" placeholder="Height (inches)" required="required" />
+            <input type="number" name="weight" placeholder="Weight (pounds)" required="required" />
+            <input type="number" name="children" placeholder="# of Children" required="required" /><br>
+
+            <input type="radio" class="radio" id="smoker_yes" name="smoker" value="yes" required="required" />
+            <label for="smoker_yes">Smoker</label>
+            <input type="radio" class="radio" id="smoker_no" name="smoker" value="no" required="required" />
             <label for="smoker_no">Non-Smoker</label><br>
-        <input type="radio" id="sex_female" name="sex" value="f" required="required" />
-            <label for="sex_female">Female</label><br>
-        <input type="radio" id="sex_male" name="sex" value="m" required="required" />
-            <label for="sex_male">Male</label><br>
 
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
-        <input type="reset" />
-    </form>
+            <input type="radio" class="radio" id="sex_female" name="sex" value="f" required="required" />
+            <label for="sex_female">Female</label>
+            <input type="radio" class="radio" id="sex_male" name="sex" value="m" required="required" />
+            <label for="sex_male">Male</label>
 
- </div>
-
-
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+            <input type="reset" />
+        </form>
+     </div>
 </body>
+
 </html>
