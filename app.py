@@ -56,9 +56,9 @@ def predict():
     # Getting status message to print with results
     status = ''
     if output < 20000:
-        status = 'You are a good candidate'
+        status = 'You are a low-risk candidate'
     else:
-        status = 'You might be higher-risk'
+        status = 'You are a high-risk candidate'
 
     prediction_text = 'Predicted insurance charges: ${}'.format(output) + '\n' + '{}'.format(status)
 
