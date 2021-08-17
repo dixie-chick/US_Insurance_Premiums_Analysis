@@ -10,6 +10,9 @@ Let's do it.
 ## Presentation: A general outline
 Check out the [Googles Slides presentation](https://docs.google.com/presentation/d/1LGDj-HcUbqJSba_dyNUMiBDP7OJCvqH_g9Cnsi8YvF0/edit?usp=sharing), the [Tableau dashboard](https://public.tableau.com/app/profile/bogeun.choi/viz/USInsurancePremiums/InsuranceDataAnalysis), and [interactive website](https://us-insurance-model.herokuapp.com/) where you can predict your charges.
 
+![Screen Shot 2021-08-16 at 7 33 47 PM](https://user-images.githubusercontent.com/79612565/129804091-ac2a8c80-1f7c-4c8c-ad6b-3cd3785d5532.png)
+
+
 ### Questions 
 Will insurance applicants be a liability to our insurance company? In other words, would they be a good candidate for our insurance company or a risk? 
 
