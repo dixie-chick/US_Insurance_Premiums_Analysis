@@ -62,7 +62,7 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 
 ### Database Storage
 
-We intend to use a Postgres SQL database to store the data.
+Postgres SQL database stored our data then sqlalchamey called the database into a jupyter notebook to build the model.
 
 ### Machine Learning
 
